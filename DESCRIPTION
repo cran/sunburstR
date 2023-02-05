@@ -1,8 +1,8 @@
 Package: sunburstR
 Type: Package
 Title: Sunburst 'Htmlwidget'
-Version: 2.1.6
-Date: 2021-09-19
+Version: 2.1.8
+Date: 2023-02-05
 Authors@R: c(
       person(
         "Mike", "Bostock"
@@ -47,10 +47,10 @@ Imports: d3r (>= 0.6.9), dplyr, htmlwidgets, htmltools
 Suggests: jsonlite, knitr, markdown, pipeR, testthat, tidyr (>= 0.7.0),
         rmarkdown
 Enhances: treemap
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.3
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2021-09-19 19:15:10 UTC; kentr
+Packaged: 2023-02-05 18:28:19 UTC; kentr
 Author: Mike Bostock [aut, cph] (d3.js library, http://d3js.org),
   Kerry Rodden [aut, cph] (sequences library in htmlwidgets/lib,
     https://gist.github.com/kerryrodden/7090426),
@@ -60,4 +60,4 @@ Author: Mike Bostock [aut, cph] (d3.js library, http://d3js.org),
   Florian Breitwieser [ctb] (R interface),
   CJ Yetman [ctb] (R interface, <https://orcid.org/0000-0001-5099-9500>)
 Repository: CRAN
-Date/Publication: 2021-09-19 19:40:02 UTC
+Date/Publication: 2023-02-05 23:20:02 UTC

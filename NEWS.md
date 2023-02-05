@@ -1,3 +1,13 @@
+# sunburstR 2.1.8
+
+* maintenance and cleanup - replace old invalid urls
+* remove containing `tagList` from `sunburst_html` (see [issue 115](https://github.com/timelyportfolio/sunburstR/issues/115))
+
+# sunburstR 2.1.7
+
+* allow specification of root label in internal `csv_to_hier` converter function
+* fix bug where `rootLabel` argument for `sund2b` was not working ; (see [issue 114](https://github.com/timelyportfolio/sunburstR/issues/114))
+
 # sunburstR 2.1.6
 
 * add labels for slices based on https://bl.ocks.org/vasturiano/12da9071095fbd4df434e60d52d2d58d
@@ -31,7 +41,7 @@
 
 * add `sumNodes` argument to correctly handle pre-summed trees, like `treemap::treemap` to not double count the aggregate (see [issue](https://github.com/timelyportfolio/sunburstR/issues/62))
 
-* add `sund2b()` htmlwidget for a [d2b](http://www.d2bjs.org/) sunburst chart
+* add `sund2b()` htmlwidget for a [d2b](https://github.com/d2bjs/d2b) sunburst chart
 
 * allow turning off the legend with argument `legend = FALSE` (see [issue](https://github.com/timelyportfolio/sunburstR/issues/61))
 
